@@ -17,6 +17,19 @@ body {
   margin: 0 auto;
 }
 
+/* buttons */
+.button-outline {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  padding: 12px 29px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+
 /* banner styles start */
 .banner-content {
   display: flex;
@@ -69,3 +82,65 @@ body {
 }
 /* banner styles end */
 
+/* why-web-dev styles start */
+
+.why-web-dev-content {
+  max-width: 852px;
+  margin: 0 auto;
+}
+.why-web-dev-heading {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+
+.why-web-dev-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.why-web-dev-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(13, 19, 33, 0.02);
+  gap: 32px;
+  border-radius: 16px;
+  margin: 80px 0;
+  padding: 80px 0px;
+}
+
+.why-web-dev-card {
+  display: flex;
+  max-width: 1012px;
+  gap: 100px;
+  padding: 48px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.why-web-dev-card-heading {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+.why-web-dev-card-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  text-align: left;
+  margin: 16px 0 32px;
+}
+/* why-web-dev styles end */
