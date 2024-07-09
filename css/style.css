@@ -182,3 +182,87 @@ body {
   border-radius: 16px;
 }
 /* my inspiration styles end*/
+
+/* my current target style start */
+.current-target {
+  margin-bottom: 111px;
+}
+
+.current-content-heading {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.current-content-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 24px auto 48px;
+}
+
+.current-target-card-heading {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 24px 0 8px;
+}
+
+.current-target-card-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+
+.current-target-card-button {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.current-target-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.current-target-card {
+  width: 364px;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.current-target-card:nth-child(1) {
+  background: rgba(255, 76, 30, 0.05);
+}
+.current-target-card:nth-child(2) {
+  background: rgba(0, 76, 232, 0.05);
+}
+.current-target-card:nth-child(3) {
+  background: rgba(255, 223, 0, 0.05);
+}
+/* my current target style end */
