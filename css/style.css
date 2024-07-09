@@ -84,9 +84,17 @@ body {
 
 /* why-web-dev styles start */
 
+.why-web-dev {
+  background: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+  margin-top: 74px;
+  margin-bottom: 88px;
+}
+
 .why-web-dev-content {
   max-width: 852px;
   margin: 0 auto;
+  padding-top: 80px;
 }
 .why-web-dev-heading {
   color: rgb(13, 19, 33);
@@ -110,10 +118,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(13, 19, 33, 0.02);
   gap: 32px;
   border-radius: 16px;
-  margin: 80px 0;
   padding: 80px 0px;
 }
 
@@ -144,3 +150,35 @@ body {
   margin: 16px 0 32px;
 }
 /* why-web-dev styles end */
+
+/* my inspiration styles start*/
+.my-inspiration-heading {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.my-inspiration-description {
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  max-width: 852px;
+  margin: 0 auto;
+  text-align: center;
+}
+.my-inspiration-youtube-video {
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  margin: 48px auto 149px;
+}
+.my-inspiration-youtube-video iframe {
+  border-radius: 16px;
+}
+/* my inspiration styles end*/
