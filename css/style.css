@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Azeret Mono", monospace;
 }
@@ -266,3 +270,78 @@ body {
   background: rgba(255, 223, 0, 0.05);
 }
 /* my current target style end */
+
+/* support section style start */
+.support {
+  background: url(../assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  padding: 64px;
+  margin-bottom: 79px;
+}
+
+.support-heading {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.support-description {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 16px auto 24px;
+}
+
+.support-form-section {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.support-form {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.support-submit-button {
+  padding: 17px 20px;
+  border: none;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.support-form-email-input {
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  width: 548px;
+}
+
+.support-form-email-input::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+/* support section style end */
